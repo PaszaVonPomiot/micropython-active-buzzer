@@ -1,0 +1,16 @@
+[project]
+name = "micropython-active-buzzer"
+version = "0.1.0"
+description = "Active buzzer in Micropython"
+readme = "README.md"
+requires-python = ">=3.13"  # for type annotations only
+dependencies = [
+    "micropython-rp2-stubs",
+]
+
+[tool.ruff]
+lint.ignore = ["F401"]  # Ignore unused imports
+
+[tool.mypy]
+ignore_missing_imports = true
+follow_imports = "silent"
