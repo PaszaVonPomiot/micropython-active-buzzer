@@ -7,5 +7,12 @@
     "python.analysis.typeCheckingMode": "basic", // Pylance type checking
     "python.analysis.diagnosticSeverityOverrides": {
         "reportMissingModuleSource": "none"
-    } // Pylance will not report missing modules for micropython-stubs
+    }, // Pylance will not report missing modules for micropython-stubs
+
+    "editor.minimap.enabled": true,
+    "editor.fontFamily": "'Cascadia Code', Consolas",
+    "editor.cursorSurroundingLines": 1,
+    "editor.minimap.scale": 2,
+    "editor.minimap.maxColumn": 100,
+    "editor.mouseWheelZoom": true
 }

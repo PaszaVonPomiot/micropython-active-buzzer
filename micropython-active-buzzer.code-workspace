@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "name": "micropython-active-buzzer",
+            "path": "."
+        },
+        {
+            "name": "Pico",
+            "uri": "pico:/"
+        }
+    ],
+    "settings": {}
+}
